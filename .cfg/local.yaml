@@ -1,0 +1,12 @@
+grpc_server_port:
+  type: "int"
+  value: 44044
+config_lib_description:
+  type: "string"
+  value: "Library for fetching config values from yaml-files"
+weather_fetching_cron_duration:
+  type: "duration"
+  value: "5m30s"
+weather_fetching_cron_enabled:
+  type: "bool"
+  value: true
